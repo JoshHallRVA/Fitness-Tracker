@@ -11,9 +11,16 @@ app.use(express.json());
 app.use(express.static("Develop/public"));
 
 mongoose
-	.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", {
-		useNewUrlParser: true,
-	})
+	.connect(
+		process.env.MONGODB_URI ||
+			"mongodb://localhost/sleepy-brushlands-08618",
+		{
+			useNewUrlParser: true,
+			useUnifiedTopology: true,
+			useCreateIndex: true,
+			useFindAndModify: false,
+		}
+	)
 	.then(() => console.log("MongoDB successfully connected"))
 	.catch((err) => console.log(err));
 
