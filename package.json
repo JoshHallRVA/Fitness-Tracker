@@ -8,14 +8,14 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/RyanEllingson/Fitness-Tracker.git"
+		"url": "git+https://github.com/JoshHallRVA/Fitness-Tracker"
 	},
-	"author": "Ryan Ellingson",
+	"author": "Josh Hall",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/RyanEllingson/Fitness-Tracker/issues"
+		"url": "https://github.com/JoshHallRVA/Fitness-Tracker/issues"
 	},
-	"homepage": "https://github.com/RyanEllingson/Fitness-Tracker#readme",
+	"homepage": "https://github.com/JoshHallRVA/Fitness-Tracker",
 	"dependencies": {
 		"express": "^4.17.1",
 		"mongojs": "^3.1.0",
