@@ -13,7 +13,7 @@ app.use(express.static("Develop/public"));
 mongoose
 	.connect(
 		process.env.MONGODB_URI ||
-			"mongodb://https://cloud.mongodb.com/v2/5f708b1fb90919506397cc32#clusters/detail/Cluster0",
+			"mongodb://Buttown42069:<Buttown42069>@cluster0.7igl8.mongodb.net/<Fitnesstracker>?retryWrites=true&w=majority",
 		{
 			useNewUrlParser: true,
 			useUnifiedTopology: true,
