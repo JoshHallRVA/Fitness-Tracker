@@ -1,0 +1,25 @@
+{
+	"name": "fitness-tracker",
+	"version": "1.0.0",
+	"description": "Unit 17 homework",
+	"main": "server.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/RyanEllingson/Fitness-Tracker.git"
+	},
+	"author": "Ryan Ellingson",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/RyanEllingson/Fitness-Tracker/issues"
+	},
+	"homepage": "https://github.com/RyanEllingson/Fitness-Tracker#readme",
+	"dependencies": {
+		"express": "^4.17.1",
+		"mongojs": "^3.1.0",
+		"mongoose": "^5.8.9",
+		"morgan": "^1.9.1"
+	}
+}
